@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ad4af3b-2d01-4334-9129-91d9ed806833">
+  <producedTypes>
+    <objectType typeId="48b211a9-be9e-4b29-a136-2c8766fe8cd4" valueTypeId="5cc2cf60-6db2-40f6-a4f5-72986f66de25"/>
+    <refType typeId="7548d909-9aca-44cb-8d12-50828138f89c" valueTypeId="e56b5503-62b8-4454-9699-17f52f7337b8"/>
+    <selectionType typeId="0a73d085-5ee8-4c97-8097-20589ab4c6a5" valueTypeId="68cbe164-6d31-4912-a734-298a58d64e32"/>
+    <listType typeId="46874c62-8e6f-4e53-9471-e6ca278f98dd" valueTypeId="5b464954-635e-4ce9-ab87-fa5885e7b26f"/>
+    <managerType typeId="b2a73440-d37f-40c3-94d2-ebe585bedc8a" valueTypeId="782cc509-238b-4503-8164-22f45e0aed54"/>
+    <displacingCalculationTypesType typeId="93428220-3439-4837-aef3-4c2e834dc643" valueTypeId="2dcc650a-8f1f-469e-8f4e-c43fb1f92830"/>
+    <displacingCalculationTypesRowType typeId="061f13a7-3382-4060-88c2-9a451129cfa1" valueTypeId="9f74a85f-2f0c-4086-b311-dd7bdff458fa"/>
+    <baseCalculationTypesType typeId="0a0bc54f-4d92-4c13-a9d2-1fcc0032bf4b" valueTypeId="dc444236-7e19-48e9-a119-e9ca184154c1"/>
+    <baseCalculationTypesRowType typeId="14214cd6-2915-4d89-9dfd-8de597e64c9d" valueTypeId="3f36fc8a-34e5-47b1-9627-c5d00f5bda5a"/>
+    <leadingCalculationTypesType typeId="c88a424f-362a-42b4-966f-cd880ecf075e" valueTypeId="11a1966f-7169-4478-a3e8-e1eaa0cbdd03"/>
+    <leadingCalculationTypesRowType typeId="79617bdb-01ec-4a4d-a42a-842bad8cdf24" valueTypeId="29a16cb0-7374-4019-9991-904b39999dbf"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_Удержания.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_Удержания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <predefined>
+    <items id="495532ce-dc2f-40cd-bb3d-d83512bb77c5">
+      <name>НДФЛ</name>
+      <description>НДФЛ</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПроцентОтРабот</base>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>
