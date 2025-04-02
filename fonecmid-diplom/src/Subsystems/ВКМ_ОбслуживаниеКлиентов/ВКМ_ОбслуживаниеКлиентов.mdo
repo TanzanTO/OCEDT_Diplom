@@ -27,4 +27,5 @@
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Номенклатура</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>
