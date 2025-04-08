@@ -30,7 +30,7 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>Role.ВКМ_РаботаСКадровымиДокументами</content>
   <content>Role.ВКМ_МассовоеСозданиеДокументовРеализации</content>
-  <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Constant.ВКМ_ТокенТелеграммБота</content>
@@ -41,4 +41,5 @@
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентовСпец</content>
 </mdclass:Subsystem>
